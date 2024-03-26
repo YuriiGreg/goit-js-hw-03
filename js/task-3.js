@@ -1,5 +1,5 @@
 function filterArray(numbers, value) {
-    let newNumbers = [];
+    const newNumbers = [];
 for (let i = 0; i < numbers.length; i += 1) {
     if (numbers[i] > value) {
         newNumbers.push(numbers[i]);
